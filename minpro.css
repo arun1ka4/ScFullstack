@@ -1,0 +1,115 @@
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e2f0f7;
+}
+
+/* Top Banner */
+.top-banner {
+    background-color: #faf5b1;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #a9cf62;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6b4f4f;
+}
+
+.logo span {
+    color: #fcf158;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #6b4f4f;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #ffffff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #6b4f4f;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #9dbd54;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #dbdd43bd;
+}
+
+.hero-images {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.img-left, .img-right {
+    width: 220px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Optional: responsive */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-images {
+        margin-top: 30px;
+    }
+}
